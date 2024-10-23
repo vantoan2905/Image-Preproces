@@ -34,26 +34,26 @@
 
 ### Aspect Ratio Preserving Resize (ARPR)
 - Usage:
-'''bash
+    ```bash
     python aspect_ratio_preserving.py <input_path> [options]
-    '''
+    ```
 - Examples:
     # Resize single image with width
-    '''bash
+    ```bash
     python aspect_ratio_preserving.py image.jpg --width 800
-    ''' 
+    ``` 
     # Resize single image with height
-    '''bash
+    ```bash
     python aspect_ratio_preserving.py image.jpg --height 600
-    '''
+    ```
     # Batch process directory
-    '''bash
+    ```bash
     python aspect_ratio_preserving.py input_dir/ --width 800 --batch
-    '''
+    ```
     # Save to specific output directory
-    '''bash
+    ```bash
     python aspect_ratio_preserving.py image.jpg --width 800 --output output_dir/
-    '''
+    ```
 ### Direct Resize (DR)
     ```bash
     python main.py path/to/your/image.*** mode=DR
